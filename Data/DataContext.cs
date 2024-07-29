@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.JSInterop.Infrastructure;
 using System.Diagnostics.Eventing.Reader;
+using EcommerceApi.Models;
+using EcommerceApi.Data.EntityMapping;
 
-namespace AcademyApi.Data;
+namespace EcommerceApi.Data;
 
 public class DataContext : DbContext
 {
